@@ -1,0 +1,2 @@
+# Unhandled 'error' function in MATLAB
+This example demonstrates an uncommon error in MATLAB that arises from the improper use of the 'error' function within custom functions. When an 'error' is thrown within a function, it halts execution immediately, and no further code in the function will run. The example also shows a solution using try-catch block.
